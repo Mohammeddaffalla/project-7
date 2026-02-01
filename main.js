@@ -1,15 +1,9 @@
-const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-navLinks.forEach(link => {
-    link.addEventListener('click', () => {
-        // إغلاق القائمة  عند الضغط على أي رابط
-        const collapseElement = document.getElementById('navbarNav');
-        const collapseInstance = bootstrap.Collapse.getInstance(collapseElement);
-        if (collapseInstance) {
-            collapseInstance.hide();  // إخفاء القائمة
-        }
+const faqs = document.querySelectorAll('.Faq');
+faqs.forEach(Faq => {
+    Faq.addEventListener("click", () => {
+        Faq.classList.toggle("active");
     });
 });
-
 let nums = document.querySelectorAll(".num");
 let content = document.querySelector(".content")
 
@@ -33,7 +27,12 @@ window.onscroll = ()=> {
 
 })
        } 
-       test = true;
+       tes = true;
 
     }
 }
+
+
+
+
+
