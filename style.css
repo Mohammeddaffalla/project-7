@@ -78,7 +78,7 @@ background: linear-gradient(to top, #14397A, #2B72EE);
       align-items: center;
      flex-direction: row;
      margin: auto;
-    border-image:fill 1 linear-gradient(hsla(234, 98%, 35%, 0.5));
+    border-image:fill 1 linear-gradient(hsla(235, 95%, 16%, 0.7));
 }
 #feat .cardd{
     justify-content: center;
@@ -325,3 +325,19 @@ transform: translateX(-400%);
     transform: translateX(0);
 } */
 
+#featt .card{
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    border-bottom: #2B72EE solid 3px;
+
+}
+
+#featl .card{
+    border: #2B72EE solid 4px;
+    border-radius: 18px;
+}
+
+ul{
+    font:1em sans-serif;
+    font-size: 18px;
+    gap: 18px;
+}
